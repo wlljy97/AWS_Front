@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            box-sizing: border-box;
+            margin: 10px 20px; /* 시계 방향, 대칭을 맞춘다. ex)left를 안주면 right에 맞춘다. */
+            /* 블록레벨요소 이기 때문에 오른쪽 나머지 까지 채워버린다.*/
+            border: 1px solid black; /* border로만 하면 속성을 시계방향으로 줄 수 없다.*/
+            border-width: 5px 3px 4px 2px; /* border의 넓이는 따로(시계방향으로) 지정해 준다.*/
+            /* 패딩을 써서 여백을 줄 수 있다. */
+            padding: 5px 10px; /* 시계 방향, 대칭을 맞춘다. ex)left를 안주면 right에 맞춘다. */
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box">내용</div>
+</body>
+</html>

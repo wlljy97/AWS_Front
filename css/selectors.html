@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* 선택자 */
+        *{
+            font-size: 20px;
+            color: red; 
+        }
+
+        button{
+            background-color: black;
+            color: white;
+        }
+        /* class 
+        class는 디자인 겹치거나 여러개를 묶을 때 중복이 가능하다. */
+        .text-input{
+            border: 1px solid blue;
+        }
+        /* id 
+        id는 중복을 허용하지 않는다.*/
+        #submit-button{
+            border-radius: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text" class="text-input">
+    <button id = "submit-button" style="border: 1px solid green; color: yellow;">버튼1</button>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main-box {
+            display: flex;
+        }
+
+        .box1 {
+            /* display: inline-block; inline-block 글자 처럼 취급 */
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .box2 {
+            /* display: inline-block; block 글자이지만 블록으로 나타내고 싶을 때 */
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            /* 글자에 대한 것들 */
+            /* line-height: 100px;
+            word-spacing: 100px; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-box">
+        <!-- div는 너비와 높이를 먹는다. -->
+        <div class="box1">구글</div>
+    
+        <!-- a는 글자에 대한 너비와 높이가 필요 -->
+        <a href=""class=box2>네이버 이동</a>
+    </div>
+</body>
+</html>
