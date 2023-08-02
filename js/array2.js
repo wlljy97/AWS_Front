@@ -43,9 +43,9 @@ const loadBookList = () => {
 // 도서를 추가 하는 작업
 const addBookOnClickHandle = () => {
     const book = {
-        bookName: document.querySelector(".book-name").vaiue, // input에 있는 value를 가져온다.
-        author: document.querySelector(".author").vaiue,
-        publisher: document.querySelector(".publisher").vaiue
+        bookName: document.querySelector(".book-name").value, // input에 있는 value를 가져온다.
+        author: document.querySelector(".author").value,
+        publisher: document.querySelector(".publisher").value
     }
 
     bookList.push(book);
